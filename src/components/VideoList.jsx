@@ -25,7 +25,7 @@ export function VideoList() {
             videos.map((video)=> {
                 return (
                     <div>
-                        <p>Название: {video.name}</p>
+                        <p><b>Название:</b> {video.name}</p> 
                         <p>Длительность: {video.duration}</p>
                         <button>Лайк!</button>
                     </div>
