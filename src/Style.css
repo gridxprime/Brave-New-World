@@ -1,23 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: #000;
     font-family: Arial, Helvetica, sans-serif;
 color: #fff;
 
 
-
-
 }
 
-
-button{
-    color: yellow;
-    background: #000;
+.hello{
+    width: 100%;
     padding: 20px 40px;
-    border-radius: 30px;
+    background: #1f1f1f;
+    color: red;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
 
 }
 
-b{
-    font-family: 'Courier New', Courier, monospace;
+.like, .dislike{
+    padding: 10px 20px;
+    color: #fff;
+}
 
+.like{
+    background: #3f3f3f;
+}
+
+.dislike{
+    background: red;
+}
+
+
+#like__counter{
+    padding: 10px 20px;
+    background: green;
+}
+
+.comments{
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+.com__input{
+    outline: none;
+    margin: 30px 20px;
 }
